@@ -1,0 +1,122 @@
+
+.box-a {
+
+  width: 100%;
+  height: 60px;
+  margin: 0px;
+  left: 0px;
+  top: 155px;
+  background-color: #ffffffd9;
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  }
+
+
+.background-image{
+  position: fixed;
+  top: 140px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(images/backdrop.png);
+  z-index: -1;
+}
+  
+.hero {
+
+width: 100%;
+height: 22%;
+margin: 0px;
+left: 0px;
+top: 0px;
+background-color: #F24E1E;
+text-align: center;
+position: fixed;
+z-index: -1;
+}
+
+@font-face {
+  font-family: 'moul';
+  src: url('fonts/Moul-Regular.ttf');
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+  line-height: 100px;
+  font-family: 'moul', sans-serif;
+}
+
+@font-face {
+  font-family: 'gloria';
+  src: url(fonts/GloriaHallelujah-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url(fonts/Lato-Bold.ttf);
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-size:x-large;
+  line-height: 20px;
+  font-family: 'gloria', serif;
+}
+
+.video-container {
+  position: absolute;
+  top: 230px;
+  left: 16px;
+  z-index: 2;
+}
+
+.box-p {
+  width: 626px;
+  height: 330.75px;
+  margin: 0px;
+  left: 632px;
+  top: 230px;
+  background-color: #ffffffd9;
+  z-index: ;
+  position: absolute;
+  text-align: center;
+  }
+  
+  p {
+    color: rgb(0, 0, 0);
+    font-size:large;
+    line-height: 25px;
+    font-family: 'lato', serif;
+  }
+
+.qr-code{
+  width: 100px;
+  height: 124px;
+  margin: 0px;
+  left: 900px;
+  top: 412px;
+  z-index: 2;
+  position: absolute;
+  background: url(images/frame.png);
+
+}
+
+.video-container{
+  width="626"
+  height="330.75"
+  top: 230px;
+  left: 10px;
+  margin: 0;
+  position: : absolute;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
