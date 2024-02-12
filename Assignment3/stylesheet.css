@@ -1,6 +1,7 @@
 #valbox {
   width: 400px;
   display: block;
+  height: 100vh;
 }
 
 .valentine-text {
@@ -8,7 +9,7 @@
   color: red;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
   position: absolute; 
-  top: 10%; 
+  top: 5%; 
   left: 50%; 
   transform: translateX(-50%); 
 }
