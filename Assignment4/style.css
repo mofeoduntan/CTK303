@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-a {
+
+  width: 100%;
+  height: 60px;
+  margin: 0px;
+  left: 0px;
+  top: 0px;
+  background-color: #ffffffd9;
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  }
+
+canvas {
+  display: block;
+  border: 8px solid #00d5ff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.background-gradient {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(-45deg, #ff5733, #eeff33, #33ff92, #3370ff);
+  background-size: 400% 400%; 
+  animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%; 
+  }
+  100% {
+    background-position: 100% 50%; 
+  }
+}
